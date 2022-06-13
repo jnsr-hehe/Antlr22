@@ -1,7 +1,4 @@
-grammar Calc;
-sum: product (PLUS product)*;
-product: NUMBER (MUL NUMBER)*;
-NUMBER: [0-9]+;
-MUL: '*';
-PLUS: '+';
+grammar HelloWorld;
+greeting: 'Hello' ID;
+ID: [a-z]+;
 WS: [ \t\r\n]+ -> skip;
