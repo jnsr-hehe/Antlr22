@@ -1,4 +1,4 @@
-// Generated from HelloWorld.g4 by ANTLR 4.7.2
+// Generated from Calc.g4 by ANTLR 4.7.2
 package compiler;
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -6,35 +6,35 @@ import org.antlr.v4.runtime.tree.ErrorNode;
 import org.antlr.v4.runtime.tree.TerminalNode;
 
 /**
- * This class provides an empty implementation of {@link HelloWorldListener},
+ * This class provides an empty implementation of {@link CalcListener},
  * which can be extended to create a listener which only needs to handle a subset
  * of the available methods.
  */
-public class HelloWorldBaseListener implements HelloWorldListener {
+public class CalcBaseListener implements CalcListener {
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterGreeting(HelloWorldParser.GreetingContext ctx) { }
+	@Override public void enterSumExpr(CalcParser.SumExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitGreeting(HelloWorldParser.GreetingContext ctx) { }
+	@Override public void exitSumExpr(CalcParser.SumExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void enterIdentifier(HelloWorldParser.IdentifierContext ctx) { }
+	@Override public void enterMulExpr(CalcParser.MulExprContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
-	@Override public void exitIdentifier(HelloWorldParser.IdentifierContext ctx) { }
+	@Override public void exitMulExpr(CalcParser.MulExprContext ctx) { }
 
 	/**
 	 * {@inheritDoc}
